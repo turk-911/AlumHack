@@ -22,12 +22,12 @@ const AdminPortal: React.FC = () => {
               {light && "🌝"}
               {!light && "☀️"}
             </button>
-            <button onClick={() => handleNavClick("upload")}>
-              Upload Comets
-            </button>
-            <button onClick={() => handleNavClick("review")}>
-              Review Aliens
-            </button>
+            {/* <button onClick={() => handleNavClick("upload")}>
+              Upload PDF
+            </button> */}
+            {/* <button onClick={() => handleNavClick("review")}>
+              Review Students
+            </button> */}
           </nav>
         </header>
         <main className={`admin-content ${light ? "light-main" : "dark-main"}`}>
